@@ -1,0 +1,65 @@
+.test ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.test li {
+  float: left;
+}
+
+.test li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.test li a:hover {
+  background-color: #111;
+}
+
+body {
+  color: gray;
+  padding: 30px;
+  font-size: 24px;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: "Helvetica", "Arial", sans-serif;
+  border: 5px solid black;
+  background-color: #DDE0E3;
+}
+
+ul {
+  list-style-type: circle;
+  font-weight: bold;
+  background-color: #DDE0E3;
+  border: 2px solid blue;
+}
+
+p {
+  background-color: #DDE0E3;
+  border: 2px solid purple;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+#button-1 {
+  color: purple;
+}
+#button-2 {
+  color: pink;
+}
+#button-3 {
+  color: orange;
+}
+#button-4 {
+  color: yellow;
+}
